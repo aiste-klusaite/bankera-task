@@ -1,3 +1,12 @@
+# Description
+
+Create a form in which, after entering an amount, BTC will display its equivalent
+in USD, EUR, and GBP using the JSON API.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

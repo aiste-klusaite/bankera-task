@@ -1,0 +1,12 @@
+.currency-options__select {
+    width: 200px;
+    margin: auto;
+}
+
+.currency-options__select > select {
+    width: 100px;
+    outline: none;
+    border: none;
+    border-bottom: 1px grey solid;
+    font-size: 20px;
+}

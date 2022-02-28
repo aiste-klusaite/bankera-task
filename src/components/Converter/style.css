@@ -1,0 +1,54 @@
+.converter {
+    width: 500px;
+    margin: auto;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.converter__form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+    align-items: flex-start;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    width: 200px;
+    outline: none;
+    padding:0.5em;
+    margin: 0.5em 0;
+    margin-left: 0.5em;
+    border: none;
+    border-bottom: 1px grey solid;
+    font-size: 20px;
+    text-align: end;
+}
+
+button {
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+button > div {
+    border: 1px solid black;
+    width: 20px;
+}
+
+button > div:first-child {
+   transform: rotate(45deg) translate(1.5px);
+}
+
+button > div:last-child {
+    transform: rotate(-45deg) translate(1px);
+ }

@@ -3,8 +3,17 @@
 Create a form in which, after entering an amount, BTC will display its equivalent
 in USD, EUR, and GBP using the JSON API.
 
+## Requirements and what is done:
 
-
+1) The form must have an input field where the user can enter the amount of BTC (done)
+2) The form must have a dynamic (0-3) number of fields that will show the currency
+equivalent of the amount. (done)
+3) Currency fields can be removed (X / Remove button) (done)
+4) If not all currency fields are visible, there must be a dropdown menu to add
+additional currency. (done, but dropdown doesn’t work the way it should, updates all inputs)
+5) Currency (excluding BTC) fields must be formatted correctly (e.g. $ 21,198.03) (couldn't fetch symbols correctly from json file, instead of that I used 'code')
+6) Exchange rate and amount equivalents must be updated automatically every
+minute (done)
 
 
 # Getting Started with Create React App
